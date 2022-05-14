@@ -1,0 +1,28 @@
+name: EP-UHC
+version: 1.0
+author: A6sT
+main: fr.a6st.epuhc.Main
+depend: [WorldEdit]
+commands:
+  uhc:
+    description: Pour lancer la partie
+    permission: epuhc.uhc.use 
+  stopuhc:
+    description: Pour stopper la partie
+    permission: epuhc.stopuhc.use
+  tn:
+    description: Pour changer le nom de la team
+  revive:
+    description: Pour faire revivre un joueur
+    permission: epuhc.revive.use
+  reveal:
+    description: Faites savoir a tout le monde que vous etes la taupe
+  claim:
+    description: Recuperer le kit de taupe une fois reveal
+  fheal:
+    description: Heal tout les joueurs
+    permission: epuhc.fheal.use
+  pos:
+    description: Envoie tes coordonnees a tes equipiers
+  toggleboard:
+    description: Activer ou desactiver le scoreboard et la tablist
